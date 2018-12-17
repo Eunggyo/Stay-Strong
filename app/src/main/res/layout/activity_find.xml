@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindExeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btn_layout"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical">
+
+            <!--tab으로 보여지는 위젯-->
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+            </TabWidget>
+
+
+            <!--tab 누를 때 마다 바뀌어지는 화면-->
+
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffff">
+
+                <ListView
+                    android:id="@+id/pectoralisView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:background="#ffff"></ListView>
+
+                <ListView
+                    android:id="@+id/shoulderView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:background="#ffff"
+                    />
+
+                <ListView
+                    android:id="@+id/backView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:background="#ffff"
+                    />
+
+
+                <ListView
+                    android:id="@+id/bicepsView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:background="#ffff"
+                    />
+
+
+                <ListView
+                    android:id="@+id/tricepsView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:background="#ffff"
+                    />
+
+
+                <ListView
+                    android:id="@+id/lowerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:background="#ffff"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/btn_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/addbtn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#95a4ff"
+                android:text="운동일지에 추가하기"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/savebtn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#95a4ff"
+                android:layout_marginTop="4dp"
+                android:visibility="gone"
+                android:text="저장하기"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</TabHost>

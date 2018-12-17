@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FindExe_BBPActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="바벨 벤치 프레스"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/bbpImg"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bbp" />
+
+        <TextView
+            android:id="@+id/bbp_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="운동 개요"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/bbp_tc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="가슴 운동을 하는 프리 웨이트 중에서 중급 이상의 숙련자에게 추천되는 운동법이다. 대흉근의 전체적인 크기를 키워주고 삼각근과 상완삼두근의 보조적인 참여를 유도해 강하면서도 균형 있는 상체를 만드는 데 효과적이다.
+"/>
+
+        <TextView
+            android:id="@+id/bbp_t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="운동 순서"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="1. 벤치에 누워 엉덩이와 견갑골을 등받이에 붙이고, 허리는 10cm가량 아치형을 만들어준다.어깨너비 두 배로 바를 잡고 눈이 바벨과 수직이 되도록 위치시킨다."
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="2. 바를 들어 가슴 중앙과 바가 수직이 되도록 위치시킨 후 팔꿈치를 살짝 구부려 고정한다."
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="3. 가슴과 바가 자석처럼 서로 만나는 느낌으로 가슴 위쪽 5~10cm까지 저항을 느끼며 바벨을 천천히 당긴다."
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="4. 겨드랑이에 힘을 준다는 느낌으로 바벨을 밀어 올린다."
+            />
+
+        <TextView
+            android:id="@+id/bbp_t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="주의 사항"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="지나치게 손목을 젖혀서 바를 잡을 경우 손목에 부상을 초래할 수 있고, 무거운 중량을 가슴 부위로 지나치게 내리는 경우 어깨 관련 근육이나 회전근개의 손상이 발생할 수 있으므로 주의하도록 한다."
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="손목이 지나치게 꺾이지 않도록 한다."
+            />
+
+        <TextView
+            android:id="@+id/bbp_t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="운동 팁"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="가슴으로 당기고 올리는 동작을 가급적 느리게 일정한 속도로 실시할 때 대흉근을 가장 효과적으로 자극할 수 있다."
+            />
+
+        <TextView
+            android:id="@+id/bbp_tc4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="운동 중 팔꿈치를 완전히 펴지 않고 대흉근의 긴장을 유지한다."
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>
